@@ -1,0 +1,107 @@
+/* ✅ Lien "Passer au contenu principal" */
+.skip-link {
+  position: absolute;
+  left: -999px;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+  background: #000;
+  color: #fff;
+  padding: 0.5em;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+/* ✨ BODY – police et taille */
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+/* 🧱 HEADER – couleur de fond */
+header {
+  background-color: #e0f7fa;
+  padding: 1rem;
+}
+
+/* 🧭 NAV – inline-block + largeur */
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: #b2ebf2;
+  padding: 1rem;
+}
+
+/* 📷 Image dans nav → largeur 10% */
+nav img {
+  width: 10%;
+}
+
+/* 📝 MAIN – couleur et taille */
+main {
+  background-color: #ffffff;
+  font-size: 17px;
+  padding: 1rem;
+}
+
+/* 📦 FOOTER – couleur */
+footer {
+  background-color: #006064;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* 🧢 H1 – alignement et style */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #00796b;
+}
+
+/* ✍️ P – lisibilité */
+p {
+  line-height: 1.6;
+}
+
+/* 🔹 LI – mis en commentaire */
+/*
+li {
+  display: inline-block;
+  width: 120px;
+}
+*/
+
+/* 🧮 .grid – grille à deux colonnes */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 2rem;
+}
+
+/* 📸 Images dans .grid uniquement → 100% */
+.grid img {
+  width: 100%;
+}
+
+/* ➰ .flex – flex-wrap + centrage */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* 🔗 Lien stylisé */
+a {
+  text-decoration: none;
+  color: #006064;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #004d40;
+}
