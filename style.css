@@ -94,4 +94,27 @@ nav ul li a {
 nav ul li a:hover {
   color: #2575fc;
 }
+/* Animation du logo */
+.logo-anim {
+  width: 60px;
+  height: auto;
+  opacity: 0;
+  transform: scale(0.8) rotate(-10deg);
+  animation: apparition-logo 1.2s ease-out forwards;
+}
+
+@keyframes apparition-logo {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) rotate(-10deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.05) rotate(2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
 
