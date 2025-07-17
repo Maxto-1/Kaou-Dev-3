@@ -2,26 +2,39 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Accueil</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <a href="#main-content" class="skip-link">Passer au contenu principal</a>
+
   <header>
     <h1>Bienvenue sur mon site</h1>
   </header>
+
   <nav>
+    <img src="logo.png" alt="Logo du site" />
     <ul>
       <li><a href="index.html">Accueil</a></li>
       <li><a href="about.html">À propos</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
- <main id="main-content">
-  <p>Bienvenue sur mon site d’apprentissage du HTML et du CSS ! 👋</p>
-  <p>Ce projet a pour but de montrer comment créer des pages web simples, accessibles et élégantes grâce aux feuilles de style en cascade.</p>
-  <p>Explore les onglets ci-dessus pour en apprendre plus sur moi et me contacter.</p>
-</main>
+
+  <main id="main-content">
+    <div class="grid">
+      <div>
+        <img src="img1.jpg" alt="Image 1" />
+        <p>Projet HTML</p>
+      </div>
+      <div>
+        <img src="img2.jpg" alt="Image 2" />
+        <p>Projet CSS</p>
+      </div>
+    </div>
+  </main>
+
   <footer>
     <p>&copy; 2025 - Mon site d’apprentissage</p>
   </footer>
